@@ -1,0 +1,25 @@
+# Netlify deployment configuration
+[build]
+  # Build the React app
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  # Deploy API server as Netlify function
+  directory = "netlify/functions"
+
+# Redirect API calls to serverless functions
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# SPA routing - redirect all routes to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  # Environment variables for build
+  NODE_VERSION = "18"

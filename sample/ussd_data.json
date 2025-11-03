@@ -1,0 +1,325 @@
+{
+  "check_IMEI": {
+    "service_name": "Check eSIM Status",
+    "mtn": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    },
+    "telecel": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    },
+    "airteltigo": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    },
+    "glo": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    }
+  },
+  "check_balance": {
+    "service_name": "Check Airtime Balance",
+    "mtn": {
+      "code": "*124#",
+      "explanation": "Checks your main airtime balance on MTN."
+    },
+    "telecel": {
+      "code": "*124#",
+      "explanation": "Checks your main airtime balance on Telecel."
+    },
+    "airteltigo": {
+      "code": "*134#",
+      "explanation": "Checks your main airtime balance on AirtelTigo."
+    },
+    "glo": {
+      "code": "*124#",
+      "explanation": "Checks your main airtime balance on Glo."
+    }
+  },
+  "check_data_balance": {
+    "service_name": "Check Data Bundle Balance",
+    "mtn": {
+      "code": "*138*1#",
+      "explanation": "Checks your active data bundle balance on MTN."
+    },
+    "telecel": {
+      "code": "*126#",
+      "explanation": "Checks your data balance on Telecel."
+    },
+    "airteltigo": {
+      "code": "*130#",
+      "explanation": "Checks your data bundle balance on AirtelTigo."
+    },
+    "glo": {
+      "code": "*124*3#",
+      "explanation": "Checks your data balance on Glo."
+    }
+  },
+  "buy_data_bundle": {
+    "service_name": "Buy Data Bundle",
+    "mtn": {
+      "code": "*138#",
+      "explanation": "Main menu for buying data bundles on MTN."
+    },
+    "telecel": {
+      "code": "*700#",
+      "explanation": "Main menu for buying data bundles on Telecel."
+    },
+    "airteltigo": {
+      "code": "*110#",
+      "explanation": "Main menu for 'Sika Kokoo' and other data bundles on AirtelTigo."
+    },
+    "glo": {
+      "code": "*707#",
+      "explanation": "Main menu for buying data bundles on Glo."
+    }
+  },
+  "customer_care": {
+    "service_name": "Contact Customer Care",
+    "mtn": {
+      "code": "100",
+      "explanation": "Call MTN customer care."
+    },
+    "telecel": {
+      "code": "100",
+      "explanation": "Call Telecel customer care."
+    },
+    "airteltigo": {
+      "code": "100",
+      "explanation": "Call AirtelTigo customer care."
+    },
+    "glo": {
+      "code": "100",
+      "explanation": "Call Glo customer care."
+    }
+  },
+  "know_your_number": {
+    "service_name": "Know Your Number",
+    "mtn": {
+      "code": "*156#",
+      "explanation": "Know Your Number code for MTN."
+    },
+    "telecel": {
+      "code": "*127#",
+      "explanation": "Know Your Number code for Telecel."
+    },
+    "airteltigo": {
+      "code": "*703#",
+      "explanation": "Know Your Number code for AirtelTigo."
+    },
+    "glo": {
+      "code": "",
+      "explanation": ""
+    }
+  },
+  "sim_registration_status": {
+    "service_name": "SIM Registration Status",
+    "mtn": {
+      "code": "*400#",
+      "explanation": "SIM Registration Status code for MTN."
+    },
+    "telecel": {
+      "code": "*400#",
+      "explanation": "SIM Registration Status code for Telecel."
+    },
+    "airteltigo": {
+      "code": "*400#",
+      "explanation": "SIM Registration Status code for AirtelTigo."
+    },
+    "glo": {
+      "code": "*400#",
+      "explanation": "SIM Registration Status code for Glo."
+    }
+  },
+  "data_bundles_menu": {
+    "service_name": "Data Bundles Menu",
+    "mtn": {
+      "code": "*138#",
+      "explanation": "Data Bundles Menu code for MTN."
+    },
+    "telecel": {
+      "code": "*700#",
+      "explanation": "Data Bundles Menu code for Telecel."
+    },
+    "airteltigo": {
+      "code": "*111#",
+      "explanation": "Data Bundles Menu code for AirtelTigo."
+    },
+    "glo": {
+      "code": "*555#",
+      "explanation": "Data Bundles Menu code for Glo."
+    }
+  },
+  "internet_settings_4g_check": {
+    "service_name": "Internet Settings/4G Check",
+    "mtn": {
+      "code": "*585#",
+      "explanation": "Internet settings & 4G SIM check (MTN)."
+    },
+    "telecel": {
+      "code": "SMS \"ALL\" to 151",
+      "explanation": "Receive Internet settings via SMS (Telecel)."
+    },
+    "airteltigo": {
+      "code": "SMS \"SETTINGS\" to 202",
+      "explanation": "Receive Internet settings via SMS (AirtelTigo)."
+    },
+    "glo": {
+      "code": "SMS \"internet\" to 1234",
+      "explanation": "Receive Internet settings via SMS (Glo)."
+    }
+  },
+  "check_data_bundle_balance": {
+    "service_name": "Check Data Bundle Balance",
+    "mtn": {
+      "code": "*138#",
+      "explanation": "Check Data Bundle Balance code for MTN (via menu)."
+    },
+    "telecel": {
+      "code": "*126#",
+      "explanation": "Check Data Bundle Balance code for Telecel."
+    },
+    "airteltigo": {
+      "code": "*111# > 3",
+      "explanation": "Check Data Bundle Balance code for AirtelTigo (via menu)."
+    },
+    "glo": {
+      "code": "",
+      "explanation": ""
+    }
+  },
+  "general_info_services_menu": {
+    "service_name": "General Info/Services Menu",
+    "mtn": {
+      "code": "*156#",
+      "explanation": "MTN general info/services menu."
+    },
+    "telecel": {
+      "code": "*151#",
+      "explanation": "Telecel general information menu."
+    },
+    "airteltigo": {
+      "code": "*100#",
+      "explanation": "AirtelTigo main menu (for general services)."
+    },
+    "glo": {
+      "code": "*124*2#",
+      "explanation": "Glo service information menu."
+    }
+  },
+  "check_imei": {
+    "service_name": "Check eSIM Status",
+    "mtn": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    },
+    "telecel": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    },
+    "airteltigo": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    },
+    "glo": {
+      "code": "*#06#",
+      "explanation": "Check if your device IMEI number."
+    }
+  },
+  "reserve_your_number": {
+    "service_name": "Number for Life Service",
+    "mtn": {
+      "code": "*139#",
+      "explanation": "MTN Number for Life service."
+    },
+    "telecel": {
+      "code": "*151#",
+      "explanation": "Telecel Number for Life service."
+    },
+    "airteltigo": {
+      "code": "*100#",
+      "explanation": "AirtelTigo Number reservation service."
+    },
+    "glo": {
+      "code": "*565#",
+      "explanation": "Glo Number for Life (1R4Life) service."
+    }
+  },
+  "idd_bundles_menu": {
+    "service_name": "IDD Bundles Menu",
+    "mtn": {
+      "code": "",
+      "explanation": ""
+    },
+    "telecel": {
+      "code": "*505#",
+      "explanation": "Telecel IDD (international calling) bundles menu."
+    },
+    "airteltigo": {
+      "code": "*533#",
+      "explanation": "AirtelTigo IDD bundles menu."
+    },
+    "glo": {
+      "code": "*444#",
+      "explanation": "Glo international call bundles menu."
+    }
+  },
+  "activate_roaming_(voice)": {
+    "service_name": "Activate Roaming (Voice)",
+    "mtn": {
+      "code": "*000#",
+      "explanation": "test roaming"
+    },
+    "telecel": {
+      "code": "*505#",
+      "explanation": "Telecel roaming activation (voice)."
+    },
+    "airteltigo": {
+      "code": "*533#",
+      "explanation": "AirtelTigo roaming activation (voice)."
+    },
+    "glo": {
+      "code": "*555#",
+      "explanation": "Glo roaming activation (via menu)."
+    }
+  },
+  "mobile_money": {
+    "service_name": "Mobile Money Services",
+    "mtn": {
+      "code": "*170#",
+      "explanation": "MTN Mobile Money (MoMo)"
+    },
+    "telecel": {
+      "code": "*110#",
+      "explanation": "Telecel Money."
+    },
+    "airteltigo": {
+      "code": "*110#",
+      "explanation": "AT Money."
+    },
+    "glo": {
+      "code": "*203#",
+      "explanation": "Glo roaming activation (via menu)."
+    }
+  },
+  "borrow_credit": {
+    "service_name": "Borrow Credit / Airtime",
+    "mtn": {
+      "code": "*155#",
+      "explanation": "Lends you airtime to be paid back on your next recharge."
+    },
+    "telecel": {
+      "code": "*505#",
+      "explanation": "Telecel's 'SOS Credit' service."
+    },
+    "airteltigo": {
+      "code": "*130#",
+      "explanation": "AirtelTigo's 'SOS Credit' service."
+    },
+    "glo": {
+      "code": "*305#",
+      "explanation": "Glo's 'Borrow Me Credit' service."
+    }
+  }
+}

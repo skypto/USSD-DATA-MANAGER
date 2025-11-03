@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {@apply px-3 py-2 rounded-lg border text-sm font-medium hover:shadow;}
+.btn-primary {@apply bg-black text-white border-black;}
+.btn-ghost {@apply border-gray-300 bg-white;}
+.input {@apply px-2 py-1 border rounded-md w-full;}
+.th {@apply text-xs font-semibold text-gray-600 uppercase;}
+.td {@apply text-sm text-gray-900;}
+.muted {@apply opacity-60;}
